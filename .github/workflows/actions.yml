@@ -1,0 +1,8 @@
+name: deploying on ec2
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+# jobs:
