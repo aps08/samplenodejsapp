@@ -1,6 +1,7 @@
 name: Nodejs actions
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
 
