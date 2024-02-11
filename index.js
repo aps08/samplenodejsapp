@@ -16,6 +16,10 @@ app.get("/api3", function (request, response) {
   response.send("<button>Go to TeamShiksha profile</button>");
 });
 
+app.get("/ec2", function (request, response) {
+  response.send("<button>Demo EC2 CICD</button>");
+});
+
 app.listen(app.get("port"), function () {
   console.log("Node app is running at localhost:" + app.get("port"));
 });
